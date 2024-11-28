@@ -1,0 +1,76 @@
+[0] welcome to lk
+
+[10] platform_init()
+[10] target_init()
+[30] MMC card: Q31SMB (0.6, 03 2002), manufacturer: 15, OEM: 100, capacity: 15634268160 bytes
+[40] SDHC Running in HS200 mode
+[40] Done initialization of the card
+[50] pm8x41_get_is_cold_boot: Warm boot
+[50] Neither 'config' nor 'frp' partition found
+[50] OEM panel override:boe_nt51017_10_800p_video
+[60] panel_operating_mode=0x0
+[70] ERROR: splash Partition invalid
+[100] Config MIPI_VIDEO_PANEL.
+[240] Turn on MIPI_VIDEO_PANEL.
+[260] Video lane tested successfully
+[260] pm8x41_get_is_cold_boot: Warm boot
+[270] ptn[0]:Name[sbl1] Size[1024] Type[0] First[34] Last[1057]
+[280] ptn[1]:Name[hyp] Size[1024] Type[0] First[1058] Last[2081]
+[280] ptn[2]:Name[sec] Size[64] Type[0] First[8192] Last[8255]
+[290] ptn[3]:Name[DDR] Size[64] Type[0] First[8256] Last[8319]
+[300] ptn[4]:Name[rpm] Size[1024] Type[0] First[16384] Last[17407]
+[300] ptn[5]:Name[tz] Size[1024] Type[0] First[17408] Last[18431]
+[310] ptn[6]:Name[aboot] Size[10112] Type[0] First[18432] Last[28543]
+[310] ptn[7]:Name[pad] Size[2048] Type[0] First[28544] Last[30591]
+[320] ptn[8]:Name[oeminfo] Size[131072] Type[0] First[30592] Last[161663]
+[330] ptn[9]:Name[modemst1] Size[8192] Type[0] First[161664] Last[169855]
+[330] ptn[10]:Name[modemst2] Size[8192] Type[0] First[169856] Last[178047]
+[340] ptn[11]:Name[modem] Size[196608] Type[0] First[180224] Last[376831]
+[350] ptn[12]:Name[fsg] Size[8192] Type[0] First[376832] Last[385023]
+[350] ptn[13]:Name[fsc] Size[4096] Type[0] First[385024] Last[389119]
+[360] ptn[14]:Name[ssd] Size[4096] Type[0] First[389120] Last[393215]
+[360] ptn[15]:Name[log] Size[131072] Type[0] First[393216] Last[524287]
+[370] ptn[16]:Name[persist] Size[65536] Type[0] First[524288] Last[589823]
+[380] ptn[17]:Name[boot] Size[40960] Type[0] First[589824] Last[630783]
+[380] ptn[18]:Name[recovery] Size[49152] Type[0] First[630784] Last[679935]
+[390] ptn[19]:Name[misc] Size[8192] Type[0] First[679936] Last[688127]
+[400] ptn[20]:Name[cache] Size[524288] Type[0] First[688128] Last[1212415]
+[400] ptn[21]:Name[system] Size[3670016] Type[0] First[1212416] Last[4882431]
+[410] ptn[22]:Name[cust] Size[1572864] Type[0] First[4882432] Last[6455295]
+[420] ptn[23]:Name[userdata] Size[24080351] Type[0] First[6455296] Last[30535646]
+[430] fastboot_init()
+[430] Error: allocating memory for ssd buffer
+[530] USB init ept @ 0x8f6a0000
+[550] udc_start()
+[650] -- reset --
+[650] -- portchange --
+[810] fastboot: processing commands
+[12530] -- reset --
+[12530] EP1/out FAIL nfo=40 pg0=8f695cc0
+[12540] -- portchange --
+[12540] usb_read() transaction failed
+[12540] fastboot: oops!
+[13450] -- reset --
+[13460] -- portchange --
+[13540] -- reset --
+[13540] -- portchange --
+[13770] -- reset --
+[13770] -- portchange --
+[13860] -- reset --
+[13860] -- portchange --
+[14120] fastboot: processing commands
+[14150] fastboot: getvar:product
+[14160] fastboot: getvar:version
+[14170] fastboot: getvar:version-bootloader
+[14180] fastboot: getvar:serialno
+[14190] fastboot: getvar:secure
+[94890] fastboot: getvar:has-slot:boot
+[94900] fastboot: getvar:max-download-size
+[94910] fastboot: getvar:is-logical:boot
+[94920] fastboot: getvar:is-logical:boot
+[94930] fastboot: getvar:partition-size:boot
+[94950] fastboot: download:01080000
+[95490] fastboot: flash:boot
+[105950] fastboot: getvar:slot-count
+[105960] fastboot: getvar:slot-suffixes
+[105970] fastboot: oem lk_log
